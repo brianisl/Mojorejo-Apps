@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".LoginAdminActivity">
+
+    <include
+        android:id="@+id/toolbarLoginAdm"
+        layout="@layout/toolbar2" />
+
+    <ImageView
+        android:id="@+id/gambarHomeAdm"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/editTextUname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:src="@mipmap/mojorejo_bulet" />
+
+
+    <EditText
+        android:id="@+id/editTextUname"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/edit_text_border"
+        android:drawableLeft="@drawable/ic_person"
+        android:padding="10dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextPass"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editTextUname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_border"
+        android:drawableLeft="@drawable/ic_lock"
+        android:padding="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLoginAdm"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editTextPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button1"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/loginAdmWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLoginAdm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textColor="#ff0000" />
+
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SumberDayaAlamActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:id="@+id/toolbarSDA"
+                layout="@layout/toolbar" />
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPagerSDA"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/toolbarSDA"
+                android:layout_margin="5dp" />
+
+            <me.relex.circleindicator.CircleIndicator
+                android:id="@+id/circleIndicatorSDA"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_alignBottom="@+id/viewPagerSDA"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/viewPagerSDA"
+                android:id="@+id/judulSda"
+                android:text="Sumber Daya Alam"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/judulSda"
+                android:id="@+id/isiSda1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/black"
+                android:text="Dengan mayoritas penduduk berprofesi sebagai petani, Desa Sumber Gondo memiliki daerah yang memang cocok untuk pertanian. Berbagai macam tanaman dibudidayakan ditempat ini. Diantaranya adalah buah seperti apel, jeruk dan jambu. Tanaman lainnya yang juga dibudidayakan seperti tanaman hortikultura yaitu wortel, brokoli, kol, cabai, lobak, kubbis serta sawi-sawian. Selain itu, warga desa juga membudidayakan tanaman bunga seperti krisan, aster, anturium, hortensia, mawar, dan masih banyak lainnya."
+                />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/isiSda1"
+                android:id="@+id/isiSda2"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Dengan sumber daya alam yang melimpah di Desa Sumber Gondo ini, masyarakat setempat memanfaatkan sumebr daya alam yang ada menjadi berbagai macam produk. Masyarakat Sumber Gondo juga mengembangkan industri kecil untuk pebuatan jenang apel, sari apel, kripik yang berasal dari buah-buahan, carang mas, serta pembuatan macam-macam kripik lainnya. Yang terbaru adalah pengusaha bunga potong dari berani sampai pengepul dan distributor bunga potong dan rangkaian bunga. "
+                android:textColor="@android:color/black"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

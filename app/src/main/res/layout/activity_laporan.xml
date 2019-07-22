@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LaporanActivity">
+
+    <include
+        android:id="@+id/buatLaporan"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/textPengirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buatLaporan"
+        android:layout_margin="15dp"
+        android:text="Masukkan Nama Pengirim" />
+
+    <EditText
+        android:id="@+id/tmbhPengirim"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textPengirim"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textJudulLaporan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tmbhPengirim"
+        android:layout_margin="15dp"
+        android:text="Masukkan Judul Laporan" />
+
+    <EditText
+        android:id="@+id/tmbhJudulLaporan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textJudulLaporan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textLaporan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tmbhJudulLaporan"
+        android:layout_margin="15dp"
+        android:text="Masukkan Laporan" />
+
+    <EditText
+        android:id="@+id/tmbhLaporan"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/textLaporan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:padding="10dp" />
+
+
+    <Button
+        android:id="@+id/tambahLaporan"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tmbhLaporan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button2"
+        android:text="Tambah" />
+
+</RelativeLayout>

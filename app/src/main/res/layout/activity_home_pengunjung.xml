@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".HomePengunjungActivity">
+
+    <include layout="@layout/toolbar2"
+        android:id="@+id/toolbarHomePgn"/>
+
+    <ImageView
+        android:id="@+id/gambarHomePengunjung"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/infoDesaPengunjung"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:src="@mipmap/mojorejo_bulet"
+        android:layout_below="@+id/toolbarHomePgn"/>
+
+
+    <Button
+        android:id="@+id/infoDesaPengunjung"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/beritaPengunjung"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_button1"
+        android:text="Informasi Desa" />
+
+    <Button
+        android:id="@+id/beritaPengunjung"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_button1"
+        android:text="Berita" />
+
+    <Button
+        android:id="@+id/potensiPengunjung"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/beritaPengunjung"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button1"
+        android:text="Potensi" />
+
+    <Button
+        android:id="@+id/kegiatanPengunjung"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/potensiPengunjung"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button1"
+        android:text="Kegiatan" />
+
+    <Button
+        android:id="@+id/panggilanPengunjung"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/kegiatanPengunjung"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button1"
+        android:text="Pusat Panggilan" />
+</RelativeLayout>

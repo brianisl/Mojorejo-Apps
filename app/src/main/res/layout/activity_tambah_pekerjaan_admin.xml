@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahPekerjaanAdminActivity">
+
+    <include
+        android:id="@+id/toolbarTmbhPkrjAdm"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/textJudulTmbhPkrj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbarTmbhPkrjAdm"
+        android:layout_margin="15dp"
+        android:text="Masukkan Lowongan Pekerjaan" />
+
+    <EditText
+        android:id="@+id/tmbhJudulPekerjaan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textJudulTmbhPkrj"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:hint="Contoh: Memetik Apel"/>
+
+    <TextView
+        android:id="@+id/textCpTmbhPkrj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tmbhJudulPekerjaan"
+        android:layout_margin="15dp"
+        android:text="Masukkan Nama dan Nomor Telepon" />
+
+    <EditText
+        android:id="@+id/tmbhCpPekerjaan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/textCpTmbhPkrj"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:hint="Contoh (Bapak Soleh: 08123456789)"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tmbhCpPekerjaan"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="*Nomor yang Bisa Dihubungi"
+        android:id="@+id/keteranganTmbhPkrj"/>
+
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:layout_below="@id/keteranganTmbhPkrj"
+        android:text="Tambah"
+        android:background="@drawable/round_button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tambahPekerjaan"/>
+
+
+</RelativeLayout>

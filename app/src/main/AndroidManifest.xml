@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mojorejoapps">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/mojorejo_ikon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".LihatLaporanExtendActivity"
+            android:parentActivityName=".LihatLaporanActivity"></activity>
+        <activity
+            android:name=".LihatLaporanActivity"
+            android:parentActivityName=".HomeAdminActivity" />
+        <activity
+            android:name=".LaporanActivity"
+            android:parentActivityName=".PanggilanWargaActivity" />
+        <activity
+            android:name=".KegiatanPengunjungExtendActivity"
+            android:parentActivityName=".KegiatanPengunjungActivity" />
+        <activity
+            android:name=".KegiatanWargaExtendActivity"
+            android:parentActivityName=".KegiatanWargaActivity" />
+        <activity
+            android:name=".TambahPekerjaanAdminActivity"
+            android:parentActivityName=".HomeAdminActivity" />
+        <activity
+            android:name=".TambahKegiatanAdminActivity"
+            android:parentActivityName=".HomeAdminActivity" />
+        <activity
+            android:name=".TambahBeritaAdminActivity"
+            android:parentActivityName=".HomeAdminActivity" />
+        <activity
+            android:name=".HomeAdminActivity"
+            android:parentActivityName=".LoginAdminActivity" />
+        <activity
+            android:name=".KegiatanPengunjungActivity"
+            android:parentActivityName=".HomePengunjungActivity" />
+        <activity
+            android:name=".KegiatanWargaActivity"
+            android:parentActivityName=".HomeWargaActivity" />
+        <activity
+            android:name=".UmkmActivity"
+            android:parentActivityName=".PotensiActivity" />
+        <activity
+            android:name=".PariwisataActivity"
+            android:parentActivityName=".PotensiActivity" />
+        <activity
+            android:name=".SumberDayaAlamActivity"
+            android:parentActivityName=".PotensiActivity" />
+        <activity
+            android:name=".PotensiActivity"
+            android:parentActivityName=".HomePengunjungActivity" />
+        <activity
+            android:name=".LapanganPekerjaanActivity"
+            android:parentActivityName=".HomeWargaActivity" />
+        <activity
+            android:name=".ActivityBeritaPengunjungExtend"
+            android:parentActivityName=".BeritaPengunjungActivity" />
+        <activity
+            android:name=".ActivityBeritaWargaExtend"
+            android:parentActivityName=".BeritaWargaActivity" />
+        <activity
+            android:name=".BeritaPengunjungActivity"
+            android:parentActivityName=".HomePengunjungActivity" />
+        <activity
+            android:name=".BeritaWargaActivity"
+            android:parentActivityName=".HomeWargaActivity" />
+        <activity
+            android:name=".InfoWargaActivity"
+            android:parentActivityName=".HomeWargaActivity" />
+        <activity
+            android:name=".InfoPengunjungActivity"
+            android:parentActivityName=".HomePengunjungActivity" />
+        <activity
+            android:name=".PanggilanPengunjungActivity"
+            android:parentActivityName=".HomePengunjungActivity" />
+        <activity
+            android:name=".PanggilanWargaActivity"
+            android:parentActivityName=".HomeWargaActivity" />
+        <activity
+            android:name=".LoginAdminActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".HomePengunjungActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".HomeWargaActivity"
+            android:parentActivityName=".LoginActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

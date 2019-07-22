@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LihatLaporanExtendActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbarLaporanExt"
+            layout="@layout/toolbar" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbarLaporanExt"
+            android:background="@drawable/edit_text_border"
+            android:padding="1dp"
+            android:layout_margin="10dp"
+            android:id="@+id/RL1">
+
+            <TextView
+                android:id="@+id/textPengirimExt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Nama Pengirim:" />
+
+            <TextView
+                android:id="@+id/namaPengirimExt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_toRightOf="@+id/textPengirimExt"
+                android:text="Ini Pengirim" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/RL1"
+            android:background="@drawable/edit_text_border"
+            android:padding="1dp"
+            android:layout_margin="10dp"
+            android:id="@+id/RL2">
+            <TextView
+                android:id="@+id/textJudulExt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Judul Laporan:" />
+
+            <TextView
+                android:id="@+id/judulLaporanExt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_toRightOf="@+id/textJudulExt"
+                android:text="Ini Judul" />
+        </RelativeLayout
+            >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/RL2"
+            android:background="@drawable/edit_text_border"
+            android:padding="1dp"
+            android:layout_margin="10dp"
+            android:id="@+id/RL3">
+            <TextView
+                android:id="@+id/textIsiLaporanExt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Isi Laporan:" />
+
+            <TextView
+                android:id="@+id/isiLaporanExt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_toRightOf="@+id/textIsiLaporanExt"
+                android:text="Ini Isi Laporan" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

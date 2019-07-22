@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".HomeWargaActivity">
+
+    <include
+        android:id="@+id/toolbarHomeWrg"
+        layout="@layout/toolbar2" />
+
+    <ImageView
+        android:id="@+id/gambarHomeWarga"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/infoDesaWarga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:src="@mipmap/mojorejo_bulet"
+        android:layout_below="@+id/toolbarHomeWrg"/>
+
+
+    <Button
+        android:id="@+id/infoDesaWarga"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/beritaWarga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_button1"
+        android:text="Informasi Desa" />
+
+    <Button
+        android:id="@+id/beritaWarga"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_button1"
+        android:text="Berita" />
+
+    <Button
+        android:id="@+id/pekerjaanWarga"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/beritaWarga"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button1"
+        android:text="Lapangan Pekerjaan" />
+
+    <Button
+        android:id="@+id/kegiatanWarga"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/pekerjaanWarga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button1"
+        android:text="Kegiatan" />
+
+    <Button
+        android:id="@+id/panggilanWarga"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/kegiatanWarga"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_button1"
+        android:text="Pusat Panggilan" />
+</RelativeLayout>

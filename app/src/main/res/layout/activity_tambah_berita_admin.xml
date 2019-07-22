@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahBeritaAdminActivity">
+
+    <include
+        android:id="@+id/toolbarTmbhBrtAdm"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/textJudulTmbhBrt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbarTmbhBrtAdm"
+        android:layout_margin="15dp"
+        android:text="Masukkan Judul Berita" />
+
+    <EditText
+        android:id="@+id/tmbhJudulBerita"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textJudulTmbhBrt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textIsiBrt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tmbhJudulBerita"
+        android:layout_margin="15dp"
+        android:text="Masukkan Isi Berita" />
+
+    <EditText
+        android:id="@+id/tmbhIsiBerita"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/textIsiBrt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/pathImgBerita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tmbhIsiBerita"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="Link Gambar (Dari Internet)"
+        android:inputType="textPersonName"
+        android:padding="10dp" />
+
+
+    <Button
+        android:id="@+id/tambahBerita"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/pathImgBerita"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/round_button2"
+        android:text="Tambah Berita" />
+
+</RelativeLayout>

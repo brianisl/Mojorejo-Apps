@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityBeritaPengunjungExtend">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbarBrtPgnExt"
+            layout="@layout/toolbar" />
+
+        <ImageView
+            android:id="@+id/imgBrtPgnExt"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/aendgame"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:id="@+id/judulBrtPgnExt"
+            android:text="Judul Berita"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <com.codesgood.views.JustifiedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/isiBrtPgnExt"
+            android:text="Ini Isi Berita"
+            android:textColor="@android:color/black"
+            android:layout_margin="10dp"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="fill_horizontal"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

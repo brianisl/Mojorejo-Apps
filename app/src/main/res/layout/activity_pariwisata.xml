@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PariwisataActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:id="@+id/toolbarPariwisata"
+                layout="@layout/toolbar" />
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPagerPariwisata"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/toolbarPariwisata"
+                android:layout_margin="5dp" />
+
+            <me.relex.circleindicator.CircleIndicator
+                android:id="@+id/circleIndicatorPariwisata"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_alignBottom="@+id/viewPagerPariwisata"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/viewPagerPariwisata"
+                android:id="@+id/judulPariwisata"
+                android:layout_marginLeft="10dp"
+                android:text="Pariwisata"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/judulPariwisata"
+                android:id="@+id/pembukaPariwisata"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Selain memiliki sumber daya alam yang melimpah, desa Sumber Gondo juga memiliki destinasi wisata yang menarik. Diantaranya adalah wisata petik apel, petik apel, dan petik apel."
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pembukaPariwisata"
+                android:id="@+id/judulPetikApel"
+                android:layout_marginTop="10dp"
+                android:text="Wisata Petik Apel"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/judulPetikApel"
+                android:id="@+id/isiPetikApel"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Petik apel murapakan wisata yang dewasa ini sedang digandrungi oleh masyarakat. Wisata petik apel merupakan tempat yang memberikan fasilitas kepada penggunjungnya untuk memetik apel dikebun apel. Ya masa di kebun jeruk. Tarif yang diberlakukan untuk wisata ini pun terbilang sangat affordable. Mulai dari harga dua puluh ribu rupiah saja, pengunjung dapat menikmati wahana petik apel dengan ditemani udara Kota Batu yang sejuk"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/isiPetikApel"
+                android:id="@+id/judulPetikApel2"
+                android:layout_marginTop="10dp"
+                android:text="Wisata Petik Apel"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/judulPetikApel2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Petik apel murapakan wisata yang dewasa ini sedang digandrungi oleh masyarakat. Wisata petik apel merupakan tempat yang memberikan fasilitas kepada penggunjungnya untuk memetik apel dikebun apel. Ya masa di kebun jeruk. Tarif yang diberlakukan untuk wisata ini pun terbilang sangat affordable. Mulai dari harga dua puluh ribu rupiah saja, pengunjung dapat menikmati wahana petik apel dengan ditemani udara Kota Batu yang sejuk"
+                android:textColor="@android:color/black"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

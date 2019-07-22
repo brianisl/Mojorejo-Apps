@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoWargaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:id="@+id/toolbarInfoWarga"
+                layout="@layout/toolbar" />
+
+            <androidx.viewpager.widget.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/toolbarInfoWarga"
+                android:id="@+id/viewPagerWrg"
+                android:layout_margin="5dp"/>
+
+            <me.relex.circleindicator.CircleIndicator
+                android:id="@+id/circleIndicatorWrg"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_alignBottom="@+id/viewPagerWrg"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="10dp"
+                ></me.relex.circleindicator.CircleIndicator>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/viewPagerWrg"
+                android:text="PROFIL"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:id="@+id/profilDesaWrg"
+                android:layout_marginLeft="10dp"
+                />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profilDesaWrg"
+                android:textColor="@android:color/black"
+                android:id="@+id/isiProfilDesaWrg"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Test"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/isiProfilDesaWrg"
+                android:id="@+id/visiDesaWrg"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"
+                android:text="VISI"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/visiDesaWrg"
+                android:id="@+id/isiVisiWrg"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/black"
+                android:text="Test"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/isiVisiWrg"
+                android:id="@+id/misiDesaWrg"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"
+                android:text="MISI"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <com.codesgood.views.JustifiedTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/misiDesaWrg"
+                android:id="@+id/isiMisiWrg1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/black"
+                android:text=""                />
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/isiMisiWrg1"-->
+            <!--android:id="@+id/isiMisiWrg2"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:text="2. Meningkatkan kehidupan yang harmonis, toleran, saling menghormati dalam kehidupan berbudaya dan beragama di desa Mojorejo."-->
+            <!--/>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/isiMisiWrg2"-->
+            <!--android:id="@+id/isiMisiWrg3"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:text="3. Mewujudkan dan meningkatkan tata kelola pemerintahan Desa  yang baik."-->
+            <!--/>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/isiMisiWrg3"-->
+            <!--android:id="@+id/isiMisiWrg4"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:text="4. Meningkatkan kesehatan, dengan mengupayakan Jaminan Kesehatan Masyarakat melalui program pemerintah."-->
+            <!--/>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/isiMisiWrg4"-->
+            <!--android:id="@+id/isiMisiWrg5"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:text="5. Meningkatkan pelayanan yang maksimal kepada masyarakat desa ."-->
+            <!--/>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/isiMisiWrg5"-->
+            <!--android:id="@+id/isiMisiWrg6"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:text="6. Meningkatkan kesejahteraan masyarakat desa dengan meningkatkan produksi rumah tangga kecil."-->
+            <!--/>-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/isiMisiWrg6"-->
+            <!--android:id="@+id/isiMisiWrg7"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:textColor="@android:color/black"-->
+            <!--android:text="7. Meningkatkan sarana dan prasarana dari segi fisik, ekonomi, pendidikan, kesehatan dan kebudayaan di desa."-->
+            <!--/>-->
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

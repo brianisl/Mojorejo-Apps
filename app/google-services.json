@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "226731580381",
+    "firebase_url": "https://fir-mojorejo.firebaseio.com",
+    "project_id": "fir-mojorejo",
+    "storage_bucket": "fir-mojorejo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226731580381:android:dc0915e9b3eddf13",
+        "android_client_info": {
+          "package_name": "com.example.mojorejoapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226731580381-bbgjfbac65aat5iu2n8838jm9opakk9f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mojorejoapps",
+            "certificate_hash": "d71ede26d3ec4aa7068a8e91669c607729c6140f"
+          }
+        },
+        {
+          "client_id": "226731580381-6s02qj8hs08s8rul5jsdud90pssah6uo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASt82b7J8DzxW15Tp5E8ekoHpxpEyKvQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226731580381-6s02qj8hs08s8rul5jsdud90pssah6uo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

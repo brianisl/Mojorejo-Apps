@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".TambahKegiatanAdminActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/toolbarTmbhKgtAdm"
+            layout="@layout/toolbar" />
+
+        <TextView
+            android:id="@+id/textJudulTmbhKgt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbarTmbhKgtAdm"
+            android:layout_margin="15dp"
+            android:text="Masukkan Judul Kegiatan" />
+
+        <EditText
+            android:id="@+id/tmbhJudulKegiatan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textJudulTmbhKgt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textIsiKgt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tmbhJudulKegiatan"
+            android:layout_margin="15dp"
+            android:text="Masukkan Deskripsi Kegiatan" />
+
+        <EditText
+            android:id="@+id/tmbhIsiKegiatan"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@id/textIsiKgt"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textTmbhTgl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tmbhIsiKegiatan"
+            android:layout_margin="15dp"
+            android:text="Tanggal Pelaksanaan" />
+
+        <EditText
+            android:id="@+id/tmbhTanggalKegiatan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textTmbhTgl"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:hint="dd/mm/yyyy"
+            android:inputType="date"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textTmbhLokasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tmbhTanggalKegiatan"
+            android:layout_margin="15dp"
+            android:text="Lokasi Pelaksanaan" />
+
+        <EditText
+            android:id="@+id/tmbhLokasiKegiatan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textTmbhLokasi"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+
+
+        <EditText
+            android:id="@+id/tmbhGambarWarga"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/textTmbhLokasi"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edit_text_border"
+            android:ems="10"
+            android:hint="Link Gambar (Dari Internet)"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/tambahKegiatan"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/tmbhGambarWarga"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/round_button2"
+            android:text="Tambah Kegiatan" />
+
+    </RelativeLayout>
+</ScrollView>

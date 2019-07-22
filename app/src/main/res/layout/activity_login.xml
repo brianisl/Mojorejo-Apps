@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/logoLogin"
+        android:src="@mipmap/mojorejo_bulet"
+        android:layout_above="@+id/buttonPengunjung"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:id="@+id/buttonPengunjung"
+        android:background="@drawable/round_button1"
+        android:text="Masyarakat"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:id="@+id/buttonWarga"
+        android:background="@drawable/round_button1"
+        android:text="Warga"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/buttonPengunjung"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:id="@+id/buttonAdmin"
+        android:background="@drawable/round_button1"
+        android:text="Admin"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/buttonWarga"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>

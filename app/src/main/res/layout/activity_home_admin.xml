@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".HomeAdminActivity">
+
+    <include
+        android:id="@+id/toolbarHomeAdm"
+        layout="@layout/toolbar2" />
+
+    <ImageView
+        android:id="@+id/gambarHomeAdm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/tambahBeritaAdm"
+        android:layout_below="@+id/toolbarHomeAdm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:src="@mipmap/mojorejo_bulet" />
+
+    <Button
+        android:id="@+id/tambahBeritaAdm"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/tambahKegiatanAdm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_button1"
+        android:text="Tambah Berita" />
+
+    <Button
+        android:id="@+id/tambahKegiatanAdm"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_button1"
+        android:text="Tambah Kegiatan" />
+    <Button
+        android:id="@+id/tambahLapanganPekerjaanAdm"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:text="Tambah Pekerjaan"
+        android:layout_below="@+id/tambahKegiatanAdm"
+        android:background="@drawable/round_button1"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/lihatLaporan"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Lihat Laporan"
+        android:layout_below="@+id/tambahLapanganPekerjaanAdm"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_button1"
+        />
+
+</RelativeLayout>
