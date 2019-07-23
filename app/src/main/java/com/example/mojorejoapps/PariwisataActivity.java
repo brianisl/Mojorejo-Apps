@@ -30,7 +30,7 @@ public class PariwisataActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("Pariwisata");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         imgPariwisata = new int[]{
-                R.drawable.aendgame, R.drawable.bendgame, R.drawable.cendgame, R.drawable.dendgame
+                R.drawable.kerajinan_batu_onix, R.drawable.punden_mojorejo
         };
         viewPagerPariwisata = (ViewPager) findViewById(R.id.viewPagerPariwisata);
         pagerAdapterPariwisata = new ViewPagerAdapterPariwisata(PariwisataActivity.this, imgPariwisata);

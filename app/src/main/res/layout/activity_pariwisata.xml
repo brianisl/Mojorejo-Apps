@@ -40,7 +40,7 @@
                 android:layout_below="@+id/viewPagerPariwisata"
                 android:id="@+id/judulPariwisata"
                 android:layout_marginLeft="10dp"
-                android:text="Pariwisata"
+                android:text="Home Industri Kerajinan Onix"
                 android:textStyle="bold"
                 android:textColor="@android:color/black"
                 android:textSize="20dp"
@@ -53,7 +53,7 @@
                 android:id="@+id/pembukaPariwisata"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text="Selain memiliki sumber daya alam yang melimpah, desa Sumber Gondo juga memiliki destinasi wisata yang menarik. Diantaranya adalah wisata petik apel, petik apel, dan petik apel."
+                android:text="Ada juga Kerajinan Khas Kota Wisata Batu dari batu onyx. Kerajinan Onix ini juga sudah merambah ke Luar Negeri. Selain itu, hasil kerajinan ini juga sering diikutkan di berbagai ajang pameran di Indonesia. Anda dapat membeli berbagai bentuk kerajinan onix dengan berbagai kreasi seperti tempat buah, pajangan rumah, patung, dll."
                 android:textColor="@android:color/black"
                 />
 
@@ -63,10 +63,10 @@
                 android:layout_below="@+id/pembukaPariwisata"
                 android:id="@+id/judulPetikApel"
                 android:layout_marginTop="10dp"
-                android:text="Wisata Petik Apel"
+                android:text="Punden Mojorejo"
                 android:textColor="@android:color/black"
                 android:textStyle="bold"
-                android:textSize="15dp"
+                android:textSize="20dp"
                 android:layout_marginLeft="10dp"
                 />
 
@@ -77,32 +77,13 @@
                 android:id="@+id/isiPetikApel"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text="Petik apel murapakan wisata yang dewasa ini sedang digandrungi oleh masyarakat. Wisata petik apel merupakan tempat yang memberikan fasilitas kepada penggunjungnya untuk memetik apel dikebun apel. Ya masa di kebun jeruk. Tarif yang diberlakukan untuk wisata ini pun terbilang sangat affordable. Mulai dari harga dua puluh ribu rupiah saja, pengunjung dapat menikmati wahana petik apel dengan ditemani udara Kota Batu yang sejuk"
+                android:text="Salah satu cagar budaya di kota Batu yang mungkin anda belum kenal yaitu Punden Mojorejo. Punden Mojorejo terletak di desa Mojorejo, kecamatan Junrejo, Kota Batu.
+Situs Punden Mojorejo terdapat di lereng bukit wukir yang dibelah oleh sungai Brantas. Untuk menuju Punden Mojorejo, dari kota Malang sampai pertigaan pendem beloklah ke kanan ke arah Karangploso, hingga pertiggaan ke kiri sebelum sungai Brantas. Ikuti terus jalan aspal sejauh kurang lebih 900 meter. Lokasi punden ini berada di sebelah kiri jalan.
+Di punden tersebut tumbuh menjulang tinggi sebuah pohon jambu hutan. Di lokasi tersebut banyak di temukan batu andesit yang diperkirakan komponen candi yang telah mengalami keruntuhan.
+"
                 android:textColor="@android:color/black"
                 />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/isiPetikApel"
-                android:id="@+id/judulPetikApel2"
-                android:layout_marginTop="10dp"
-                android:text="Wisata Petik Apel"
-                android:textColor="@android:color/black"
-                android:textStyle="bold"
-                android:textSize="15dp"
-                android:layout_marginLeft="10dp"
-                />
-
-            <com.codesgood.views.JustifiedTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/judulPetikApel2"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:text="Petik apel murapakan wisata yang dewasa ini sedang digandrungi oleh masyarakat. Wisata petik apel merupakan tempat yang memberikan fasilitas kepada penggunjungnya untuk memetik apel dikebun apel. Ya masa di kebun jeruk. Tarif yang diberlakukan untuk wisata ini pun terbilang sangat affordable. Mulai dari harga dua puluh ribu rupiah saja, pengunjung dapat menikmati wahana petik apel dengan ditemani udara Kota Batu yang sejuk"
-                android:textColor="@android:color/black"
-                />
         </RelativeLayout>
     </LinearLayout>
 

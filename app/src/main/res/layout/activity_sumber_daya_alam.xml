@@ -54,19 +54,10 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:textColor="@android:color/black"
-                android:text="Dengan mayoritas penduduk berprofesi sebagai petani, Desa Sumber Gondo memiliki daerah yang memang cocok untuk pertanian. Berbagai macam tanaman dibudidayakan ditempat ini. Diantaranya adalah buah seperti apel, jeruk dan jambu. Tanaman lainnya yang juga dibudidayakan seperti tanaman hortikultura yaitu wortel, brokoli, kol, cabai, lobak, kubbis serta sawi-sawian. Selain itu, warga desa juga membudidayakan tanaman bunga seperti krisan, aster, anturium, hortensia, mawar, dan masih banyak lainnya."
+                android:text="Desa Mojorejo terletak di Kecamatan Junrejo Kota Batu. Memiliki luas wilayah 1,9317 km2 dengan jumlah penduduk kurang lebih 4.080 jiwa (Kadarwati. S. 2015). Kecamatan Junrejo merupakan Kecamatan yang masuk dalam wilayah Kota Batu, Provinsi Jawa Timur. Mengacu pada data potensi Kecamatan, letak geografis desa-desa di wilayah KecamatanJunrejo berada di lereng dan lembah (dominan lereng) dengan topografi secara keseluruhan yaitu daerah lereng/ bukit. Luas kawasan Kecamatan Junrejo secara keseluruhan adalah sekitar 25,65 km2 atau sekitar 12,88 persen dari total luas Kota Batu. Mayoritas dari warganya bekerja sebagai petani, dikarenakan di desa tersebut masih banyak lahan pertanian. Adapun jenis-jenis tanaman yang dapat ditanam antara lain bawang merah, jagung, ketela, dll."
                 />
 
-            <com.codesgood.views.JustifiedTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/isiSda1"
-                android:id="@+id/isiSda2"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:text="Dengan sumber daya alam yang melimpah di Desa Sumber Gondo ini, masyarakat setempat memanfaatkan sumebr daya alam yang ada menjadi berbagai macam produk. Masyarakat Sumber Gondo juga mengembangkan industri kecil untuk pebuatan jenang apel, sari apel, kripik yang berasal dari buah-buahan, carang mas, serta pembuatan macam-macam kripik lainnya. Yang terbaru adalah pengusaha bunga potong dari berani sampai pengepul dan distributor bunga potong dan rangkaian bunga. "
-                android:textColor="@android:color/black"
-                />
+
 
         </RelativeLayout>
     </LinearLayout>

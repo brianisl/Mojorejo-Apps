@@ -34,36 +34,36 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginBottom="10dp"/>
 
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/viewPagerUMKM"-->
+                <!--android:id="@+id/judulUMKM"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:text="UMKM"-->
+                <!--android:textColor="@android:color/black"-->
+                <!--android:textSize="20dp"-->
+                <!--android:textStyle="bold"-->
+                <!--/>-->
+
+            <!--<com.codesgood.views.JustifiedTextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_below="@+id/judulUMKM"-->
+                <!--android:id="@+id/pembukaUMKM"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:text="UMKM adalah usaha produktif yang dimiliki perorangan maupun badan usaha yang telah memenuhi kriteria sebagai usaha mikro. Desa Sumber Gondo sendiri memiliki berbagai UMKM yang sedang berkembang, contohnya adalah usaha produksi kripik buah, produksi kripik buah, dan produksi kripik buah."-->
+                <!--android:textColor="@android:color/black"-->
+                <!--/>-->
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/viewPagerUMKM"
-                android:id="@+id/judulUMKM"
-                android:layout_marginLeft="10dp"
-                android:text="UMKM"
-                android:textColor="@android:color/black"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                />
-
-            <com.codesgood.views.JustifiedTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/judulUMKM"
-                android:id="@+id/pembukaUMKM"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:text="UMKM adalah usaha produktif yang dimiliki perorangan maupun badan usaha yang telah memenuhi kriteria sebagai usaha mikro. Desa Sumber Gondo sendiri memiliki berbagai UMKM yang sedang berkembang, contohnya adalah usaha produksi kripik buah, produksi kripik buah, dan produksi kripik buah."
-                android:textColor="@android:color/black"
-                />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/pembukaUMKM"
                 android:id="@+id/judulKripikBuah"
                 android:layout_marginLeft="10dp"
-                android:text="Produksi Kripik Buah"
+                android:text="Kerupuk Singkong dan Waluh"
                 android:textColor="@android:color/black"
                 android:textStyle="bold"
                 android:textSize="15dp"
@@ -77,19 +77,10 @@
                 android:id="@+id/isiKripikBuah1"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
-                android:text="Buah-buahan selain dijual dalam bentuk buah segar, dapat diproduksi juga menjadi kripik buah yang juga memiliki nilai jual tinggi. Buah-buahan yang dapat diolah menjadi kripik diantaranya, buah jambu, apel, dan lain sebagainya. Masyarakat Desa Sumber Gondo memanfaatkan kekayaan alam berupa buah-buahan yang melimpah untuk diproduksi menjadi panganan ringa yaitu kripik. "
+                android:text="Desa Mojorejo Kecamatan Junrejo merupakan salah satu daerah sentra kerupuk singkong dan waluh yang mulai dibina oleh Pemkot Batu sebagai daerah yang potensial sebanyak 30 unit usaha yang hampir keseluruhanya memproduksi kerupuk singkong. Dusun Kajang merupakan salah satu sentra pengrajin kerupuk singkong dan waluh di desa Mojorejo sebanyak 15 unit pengrajin. Dusun Kajang ditetapkan sebagai kawasan industri (UKM) sesuai pengakuan dari pemerintah Kota Batu. Di sentra industri kerupuk singkong dan waluh di dusun Kajang desa Mojorejo terdapat 15 keluarga pengrajin/ UKM dengan kapasitas produksi, penguasaan teknologi, dan pemasaran, serta pengembangan sumber daya manusia masing-masing yang beragam. (LPPM UB, 2018)"
                 android:textColor="@android:color/black"
                 />
-            <com.codesgood.views.JustifiedTextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_below="@+id/isiKripikBuah1"
-                android:id="@+id/isiKripikBuah2"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:text="Karena banyaknya produksi buah di Desa Sumber Gondo, banyak buah-buahan yang tidak terjual dan mengalami pembusukan. Oleh karena itu, pengolahan buah sebagai keripik memiliki manfaat yang baik. Yaitu, selain untuk meningkatkan pendapatan warga, juga berperan untuk mengurangi buah-buahan yang membusuk."
-                android:textColor="@android:color/black"
-                />
+
         </RelativeLayout>
     </LinearLayout>
 

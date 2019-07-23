@@ -30,7 +30,7 @@ public class UmkmActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("UMKM");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         imgUMKM = new int[]{
-                R.drawable.aendgame, R.drawable.bendgame, R.drawable.cendgame, R.drawable.dendgame
+                R.drawable.kerupuk_labu_1, R.drawable.kerupuk_labu_2, R.drawable.kerupuk_singkong_1, R.drawable.kerupuk_singkong_2
         };
         viewPagerUMKM = (ViewPager) findViewById(R.id.viewPagerUMKM);
         pagerAdapterUMKM = new ViewPagerAdapterUmkm(UmkmActivity.this, imgUMKM);

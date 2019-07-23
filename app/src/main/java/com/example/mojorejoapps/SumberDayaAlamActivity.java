@@ -30,7 +30,7 @@ public class SumberDayaAlamActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         imgSDA = new int[]{
-                R.drawable.aendgame, R.drawable.bendgame, R.drawable.cendgame, R.drawable.dendgame
+                R.drawable.sd_alam_1, R.drawable.sd_alam_2
         };
         viewPagerSDA = (ViewPager) findViewById(R.id.viewPagerSDA);
         pagerAdapterSDA = new ViewPagerAdapterSDA(SumberDayaAlamActivity.this, imgSDA);

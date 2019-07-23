@@ -49,7 +49,7 @@
                         android:layout_height="150dp"
                         android:layout_below="@id/textSDA"
                         android:layout_margin="10dp"
-                        android:src="@drawable/aendgame" />
+                        android:src="@drawable/sd_alam_2" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -82,7 +82,7 @@
                         android:layout_height="150dp"
                         android:layout_below="@id/textPariwisata"
                         android:layout_margin="10dp"
-                        android:src="@drawable/aendgame" />
+                        android:src="@drawable/punden_mojorejo" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
@@ -115,7 +115,7 @@
                         android:layout_height="150dp"
                         android:layout_below="@id/textUMKM"
                         android:layout_margin="10dp"
-                        android:src="@drawable/aendgame" />
+                        android:src="@drawable/kerupuk_labu_1" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 

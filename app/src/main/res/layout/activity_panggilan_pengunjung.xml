@@ -121,7 +121,7 @@
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@+id/email2"
-                    android:text="pemdessumbergondo@gmail.com"
+                    android:text="desamojorejo@gmail.com"
                     android:textColor="@android:color/black"
                     android:textSize="12dp"
                     android:textStyle="bold" />
@@ -145,7 +145,7 @@
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@+id/website2"
-                    android:text="sumbergondo.batu.go.id"
+                    android:text="desamojorejo.batukota.go.id"
                     android:textColor="@android:color/black"
                     android:textSize="12dp"
                     android:textStyle="bold" />
